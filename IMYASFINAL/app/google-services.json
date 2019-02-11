@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1081751137275",
+    "firebase_url": "https://imyas-app.firebaseio.com",
+    "project_id": "imyas-app",
+    "storage_bucket": "imyas-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081751137275:android:0f9f8949f4c682e9",
+        "android_client_info": {
+          "package_name": "com.example.imyasfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081751137275-kenbvtq6tlfg0me25vmmhfelsbd6gh8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imyasfinal",
+            "certificate_hash": "e1b53bdf7a3d6c0cd1dc9dd8be44a188ca45fd21"
+          }
+        },
+        {
+          "client_id": "1081751137275-bij13bal5li77p4l3kvs7ninluj1rvqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADndhr6a15oAf92Kp-CApVnAy1jZGQkwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081751137275-bij13bal5li77p4l3kvs7ninluj1rvqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".LoginArtist">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/shopUsername"
+        android:hint="Emailart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="text"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="50"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/shopPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="text"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="50"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        android:hint="password"
+        />
+
+    <Button
+        android:id="@+id/shopLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#fefefe"
+        android:text="Login"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/btnShopreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:text="Not yet registered? Create one"
+        android:textSize="16sp"
+        android:textColor="#FEFEFE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btnShophome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom|center"
+            android:text="Back to home"
+            android:textSize="16sp"
+            android:textColor="#FEFEFE"/>
+
+    </LinearLayout>
+
+</LinearLayout>
